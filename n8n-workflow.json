@@ -1,0 +1,114 @@
+{
+  "name": "UK Public Tenders Scraper (Find a Tender + Contracts Finder) to webhook",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "days",
+              "triggerAtHour": 8,
+              "triggerAtMinute": 0
+            }
+          ]
+        }
+      },
+      "id": "a5cd27f1-342a-4666-88de-4813afaa4c57",
+      "name": "Run every morning",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "Actors",
+        "operation": "Run actor and get dataset",
+        "actorSource": "store",
+        "actorInputMode": "json",
+        "actorId": {
+          "__rl": true,
+          "value": "kecrZ797dILZRPV5C",
+          "mode": "list",
+          "cachedResultName": "evpp/uk-public-tenders",
+          "cachedResultUrl": "https://apify.com/evpp/uk-public-tenders"
+        },
+        "customBody": "{\n  \"keyword\": \"\",\n  \"noticeTypes\": \"award\",\n  \"maxItems\": 25\n}",
+        "timeout": 300,
+        "memory": 512,
+        "build": "latest",
+        "authentication": "apifyApi"
+      },
+      "id": "757ff3d4-f26e-4429-86a2-55b338c4d67c",
+      "name": "Run UK Public Tenders Scraper (Find a Tender + Contracts Finder)",
+      "type": "@apify/n8n-nodes-apify.apify",
+      "typeVersion": 1,
+      "position": [
+        280,
+        0
+      ],
+      "credentials": {
+        "apifyApi": {
+          "name": "<your credential>"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://webhook.site/your-unique-url",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json }}",
+        "options": {}
+      },
+      "id": "8637d1d3-6bef-4e1f-963e-34550bd04688",
+      "name": "Send results to webhook",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        560,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Run every morning": {
+      "main": [
+        [
+          {
+            "node": "Run UK Public Tenders Scraper (Find a Tender + Contracts Finder)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Run UK Public Tenders Scraper (Find a Tender + Contracts Finder)": {
+      "main": [
+        [
+          {
+            "node": "Send results to webhook",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": false
+  },
+  "tags": [
+    "apify",
+    "web-scraping",
+    "uk-public-tenders"
+  ]
+}

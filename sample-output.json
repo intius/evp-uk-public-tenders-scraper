@@ -1,0 +1,142 @@
+[
+  {
+    "ocid": "ocds-h6vhtk-03b792",
+    "releaseId": "112310-2026",
+    "releaseDate": "2026-11-26T16:54:33Z",
+    "tag": [
+      "award",
+      "contract"
+    ],
+    "noticeUrl": "https://www.find-tender.service.gov.uk/Notice/112310-2026",
+    "tenderTitle": "Dynamic Purchasing System For Passenger Transport Services 2023",
+    "tenderDescription": "A mini competition was carried out under Lot 1 of the Aberdeenshire Council Dynamic Purchasing System 2023-2028 for the provision of Mainstream School transport services.",
+    "tenderStatus": "complete",
+    "procurementMethod": "selective",
+    "category": "services",
+    "cpvCodes": [
+      "60000000",
+      "60100000",
+      "60112000",
+      "60130000",
+      "60140000",
+      "60170000",
+      "60120000",
+      "60171000",
+      "60172000"
+    ],
+    "buyerName": "Aberdeenshire Council",
+    "buyerId": "GB-FTS-756",
+    "region": "UKM50",
+    "awardDate": "2026-10-15T00:00:00+01:00",
+    "awardValue": 722820.34,
+    "suppliers": [
+      "Central Taxis (North East) Limited",
+      "Victoria Group Limited",
+      "Whytes Coaches Ltd",
+      "RS Coaches",
+      "A&I Coaches Ltd"
+    ]
+  },
+  {
+    "ocid": "ocds-h6vhtk-07c50b",
+    "releaseId": "112297-2026",
+    "releaseDate": "2026-11-26T16:30:26Z",
+    "tag": [
+      "award",
+      "contract"
+    ],
+    "noticeUrl": "https://www.find-tender.service.gov.uk/Notice/112297-2026",
+    "tenderTitle": "BCU-DCO-64511 - MEDICAL RECORDS LIBRARY REFURBISHMENT WMH",
+    "tenderDescription": "Betsi Cadwaladr University Health Board requires a suitably qualified and experienced contractor to undertake the works to Wrexham Maelor Hospital - Medical Records Library Refurbishment. The proposed works include dismantling, removal and temporary storage of the existing Multitrak mobile shelving system.",
+    "tenderStatus": "complete",
+    "procurementMethod": "limited",
+    "category": "works",
+    "buyerName": "Betsi Cadwaladr University Health Board",
+    "buyerId": "GB-FTS-188634",
+    "region": "UK",
+    "awardDate": "2026-11-16T00:00:00Z",
+    "awardValue": 14151,
+    "suppliers": [
+      "RACKLINE LTD"
+    ]
+  },
+  {
+    "ocid": "ocds-h6vhtk-07c500",
+    "releaseId": "112284-2026",
+    "releaseDate": "2026-11-26T16:13:47Z",
+    "tag": [
+      "award",
+      "contract"
+    ],
+    "noticeUrl": "https://www.find-tender.service.gov.uk/Notice/112284-2026",
+    "tenderTitle": "Civica - Data Complaints, DPIAs & Incident  Breach MGMT",
+    "tenderDescription": "The Civica Case Management platform is a multi-channel contact and case management solution providing end-to-end support for any case management process – capturing, managing, responding to as well as analysing performance and trends. Also providing dedicated pre-configured template solutions for Complaint and Feedback Management, Information Request Handling, Legal Case Management, Registrations, Coroners as well as Employee Relations case management.Introducing the CIVICA system for DPIA’s, SA...",
+    "tenderStatus": "complete",
+    "procurementMethod": "limited",
+    "category": "services",
+    "cpvCodes": [
+      "72268000"
+    ],
+    "buyerName": "NHS Wales Shared Services Partnership-Procurement Services (hosted by Velindre University NHS Trust)",
+    "buyerId": "GB-FTS-109",
+    "region": "UK",
+    "awardDate": "2026-06-30T00:00:00+01:00",
+    "awardValue": 75750,
+    "suppliers": [
+      "Civica UK Limited"
+    ]
+  },
+  {
+    "ocid": "ocds-h6vhtk-060b86",
+    "releaseId": "112277-2026",
+    "releaseDate": "2026-11-26T16:05:21Z",
+    "tag": [
+      "award",
+      "contract"
+    ],
+    "noticeUrl": "https://www.find-tender.service.gov.uk/Notice/112277-2026",
+    "tenderTitle": "Baby Steps",
+    "tenderDescription": "The Baby Steps Service is a clinical local early-help and parenting / parent–infant relationship support service. Its primary purpose is prevention and early intervention within the Family Hubs and Best Start system. The service supports parents and carers of children under 2 years (0–24-month-olds) to strengthen early relationships, responsive caregiving, parental confidence, reflective capacity, emotional regulation and early communication during the first 1,001 days. It has two strands.",
+    "tenderStatus": "complete",
+    "procurementMethod": "limited",
+    "category": "services",
+    "cpvCodes": [
+      "85000000"
+    ],
+    "buyerName": "London Borough of Hackney",
+    "buyerId": "GB-FTS-18547",
+    "region": "UKI41",
+    "awardDate": "2026-08-31T00:00:00+01:00",
+    "awardValue": 169156.96,
+    "suppliers": [
+      "Homerton Health Care NHS Foundation Trust",
+      "Homerton NHS Foundation Trust"
+    ]
+  },
+  {
+    "ocid": "ocds-h6vhtk-07c4f8",
+    "releaseId": "112268-2026",
+    "releaseDate": "2026-11-26T15:58:30Z",
+    "tag": [
+      "award",
+      "contract"
+    ],
+    "noticeUrl": "https://www.find-tender.service.gov.uk/Notice/112268-2026",
+    "tenderTitle": "Operation and Maintenance of Hebburn and VENJ Heat Networks",
+    "tenderDescription": "South Tyneside Council is appointing an operation & maintenance contractor for two heat networks in Jarrow (VENJ) and Hebburn Renewable Energy Network that were completed in September 2023.",
+    "tenderStatus": "complete",
+    "procurementMethod": "limited",
+    "category": "services",
+    "cpvCodes": [
+      "09323000"
+    ],
+    "buyerName": "South Tyneside Borough Council",
+    "buyerId": "GB-FTS-140413",
+    "region": "UKC22",
+    "awardDate": "2026-11-17T00:00:00Z",
+    "awardValue": 321605,
+    "suppliers": [
+      "Veolia Energy & Utility Services UK Limited"
+    ]
+  }
+]
